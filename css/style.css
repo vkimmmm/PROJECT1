@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap');
+
+*{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding:0;
+    background-color:rgb(255, 241, 255);
+}
+
+@font-face{
+    src: ulr("../media/fonts/Minecraft Evenings.otf");
+    font-family: minecraftevenings;
+}
+
+@font-face{
+    src: ulr("../media/fonts/Minecraft-Bold.otf");
+    font-family: minecraftbold;
+}
+
+.intro{
+    /* font-family: minecraftevenings, system-ui; */
+    font-family: 'Press Start 2P', system-ui;
+    text-align: center;
+    color:rgb(221, 76, 124);
+    
+}
+
+/* HORIZONTAL NAV MENU STYLINTG */
+
+.menu ul {
+    font-family: 'Press Start 2P', system-ui;
+    list-style-type: none;
+    background-color: rgb(255, 210, 232);
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: darkgray;
+}
+
+h2{
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+}
+
+
+iframe{
+    display: block;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
