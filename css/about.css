@@ -5,7 +5,6 @@
     margin-top: 0px;
     margin-bottom: 5px;
     padding:0;
-    background-color:rgb(253, 223, 238);
 }
 
 @font-face{
@@ -18,41 +17,18 @@
     font-family: minecraftbold;
 }
 
-audio {
-    width: 400px;
-    margin: 15px;
-    background-color: #ffa3ca;
-    border-radius: 10px;
-  }
-
-audio::-webkit-media-controls-panel {
-    background-color: #ffa3ca;
-  }
-
-audio::-webkit-media-controls-current-time-display,
-audio::-webkit-media-controls-time-remaining-display,
-audio::-webkit-media-controls-timeline {
-    font-family: 'Press Start 2P', system-ui;
-    }
-
-.intro{
-    font-family: 'Press Start 2P', system-ui;
-    text-align: center;
-    color:rgb(221, 76, 124);
-    
-}
 
 /* HORIZONTAL NAV MENU STYLING */
 
 .menu ul {
     font-family: 'Press Start 2P', system-ui;
     list-style-type: none;
-    background-color: rgb(253, 223, 238);
+    background-image: url("../media/images/jlrma8yf1b371.webp");
     overflow: hidden;
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
-    padding: 40px 10px 20px 450px;
+    padding: 1px 10px 20px 450px;
 }
 
 .menu li{
@@ -77,12 +53,55 @@ audio::-webkit-media-controls-timeline {
     background-color: rgb(0, 0, 0);
 }
 
-h2{
-    font-family: 'Silkscreen', sans-serif;
+/* END OF NAV */
+
+body {
+    background-image: url("../media/images/jlrma8yf1b371.webp");
+   }
+
+h1{
+    font-family: 'Press Start 2P', system-ui;
+    background-color: #ffdce4; 
+    color: #dd4c7c;
+    padding: 20px; 
     text-align: center;
-    padding: 14px 30px 30px 30px;
+    border-radius: 100px; 
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
+.group1{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px; 
+    margin: 20px 40px auto; 
+
+}
+
+.steve {
+    max-width: 50%; 
+    height: auto; 
+    margin-left: 70px;
+  }
+
+.text{
+    position: absolute;
+    font-family: 'Press Start 2P', system-ui;
+    border: 10px inset rgb(196, 55, 102);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #ff67a1;
+    padding: 15px 24px 15px 15px;
+    margin-bottom: 1px;
+    margin-left: 500px;
+    margin-right: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+} 
 
 iframe{
     display: block;
@@ -91,3 +110,6 @@ iframe{
     margin: 0 auto;
     margin-top: 30px;
 }
+
+
+

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap');
+
+*{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding:0;
+    background-color:rgb(253, 223, 238);
+}
+
+@font-face{
+    src: ulr("../media/fonts/Minecraft Evenings.otf");
+    font-family: minecraftevenings;
+}
+
+@font-face{
+    src: ulr("../media/fonts/Minecraft-Bold.otf");
+    font-family: minecraftbold;
+}
+
+/* HORIZONTAL NAV MENU STYLING */
+
+.menu ul {
+    font-family: 'Press Start 2P', system-ui;
+    list-style-type: none;
+    background-color: rgb(253, 223, 238);
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding: 1px 1px 2px 450px;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a {
+    float: left;
+    display: block;
+    color: rgb(221, 76, 124);
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(248, 185, 215);
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover{
+    display: block;
+    background-color: rgb(0, 0, 0);
+}
+
+/* END OF MENU */
+
+h1{
+    font-family: 'Press Start 2P', system-ui;
+    text-align: center;
+    color:rgb(221, 76, 124);
+}
+
+.body1{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px; 
+    margin: 20px 40px auto; 
+
+}
+
+.image1 {
+    max-width: 50%; 
+    height: auto; 
+  }
+
+.text1{
+    position: absolute;
+    font-family: 'Press Start 2P', system-ui;
+    border: 2px inset rgb(221, 76, 124);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 15px 24px 15px 15px;
+    margin-bottom: 1px;
+    margin-left: 500px;
+    margin-right: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+} 
+
+.body2{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px; 
+    margin: 20px 40px auto; 
+}
+
+.image2{
+    max-width: 50%; 
+    height: auto; 
+}
+
+.text2{
+    position: absolute;
+    font-family: 'Press Start 2P', system-ui;
+    border: 2px inset rgb(221, 76, 124);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 15px 24px 15px 15px;
+    margin-bottom: 1px;
+    margin-left: 500px;
+    margin-right: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+} 
+
+.body3{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px; 
+    margin: 20px 40px auto; 
+}
+
+.image3{
+    max-width: 50%; 
+    height: auto; 
+}
+
+.text3{
+    position: absolute;
+    font-family: 'Press Start 2P', system-ui;
+    border: 2px inset rgb(221, 76, 124);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 15px 24px 15px 15px;
+    margin-bottom: 1px;
+    margin-left: 500px;
+    margin-right: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+} 
